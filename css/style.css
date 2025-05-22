@@ -80,7 +80,7 @@ html {
 /* Start Home */
 #home {
   position: relative;
-  background-image: url("../images/image.jpg");
+  background-image: url("../images/image.jpeg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,10 +99,10 @@ html {
 }
 @media (max-width: 767px) {
   #home .home-content {
-    width: 70%;
+    width: 90%;
   }
   .container {
-    padding-left: 20px;
+    padding-left: 1px;
   }
 }
 #home .home-content .text {
@@ -638,3 +638,23 @@ footer .bottom {
   font-size: 14px;
 }
 /* End Footer  */
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
